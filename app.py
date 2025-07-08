@@ -99,7 +99,40 @@ valid_stations = {'VZMX': ['NO_TS_MO_6201083',
               'BO_TS_MO_FinngrundetWR',
               'BO_TS_TG_Kuivastu',
               'BO_TS_MO_VaderoarnaWR',
-              'BO_TS_MO_HuvudskarOst']}
+              'BO_TS_MO_HuvudskarOst'],
+             'VTZM': ['NO_TS_MO_Fjaltring',
+              'NO_TS_MO_6600379',
+              'NO_TS_MO_Fanoebugt',
+              'NO_TS_MO_6201083'],
+             'VAVT': ['NO_TS_MO_Fjaltring',
+              'NO_TS_MO_6600379',
+              'NO_TS_MO_Fanoebugt',
+              'NO_TS_MO_6201083'],
+             'WSPD': ['NO_TS_MO_6600024',
+              'NO_TS_MO_6600022',
+              'BO_TS_MO_Koster',
+              'NO_TS_MO_1000044',
+              'BO_TS_MO_HuvudskarOst',
+              'BO_TS_MO_Norrbyn',
+              'BO_TS_MO_Uto',
+              'NO_TS_MO_6600021'],
+             'WDIR': ['NO_TS_MO_6600024',
+              'NO_TS_MO_6600022',
+              'BO_TS_MO_Koster',
+              'NO_TS_MO_1000044',
+              'BO_TS_MO_HuvudskarOst',
+              'BO_TS_MO_Norrbyn',
+              'BO_TS_MO_Uto',
+              'NO_TS_MO_6600021'],
+             'VTZA': ['BO_TS_MO_BrofjordenWR',
+              'NO_TS_MO_Fjaltring',
+              'BO_TS_MO_HuvudskarOst',
+              'NO_TS_MO_6600379',
+              'BO_TS_MO_VaderoarnaWR',
+              'BO_TS_MO_Knollsgrund',
+              'NO_TS_MO_Fanoebugt',
+              'NO_TS_MO_6201083',
+              'BO_TS_MO_FinngrundetWR']}
 
 # %%
 copernicus_to_ecmwf = {'VZMX': {'long_name': 'Maximum zero crossing wave height (Hmax)',
@@ -339,7 +372,7 @@ copernicus_to_ecmwf = {'VZMX': {'long_name': 'Maximum zero crossing wave height 
   'ECMWF Wave': 'vst'}}
 
 # %%
-parameters = ['VZMX','VTM02','VDIR','VAVH','VTPK','VPED','VMDR','VHM0','VEMH']
+parameters = ['VZMX','VTM02','VDIR','VAVH','VTPK','VPED','VMDR','VHM0','VEMH','VTZM','VAVT','WSPD','WDIR','VTZA']
 
 # %%
 options = []
