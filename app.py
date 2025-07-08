@@ -397,7 +397,7 @@ app.layout = html.Div(
             clearable=False,
             style={"width": "400px"}
         ),
-        dcc.Graph(id="map", style={{"width": "50%","height": "400px"}),
+        dcc.Graph(id="map", style={"width": "50%","height": "400px"}),
         # html.Div(
         #     style={"flex": "1 1 50%"},
         #     children=[
